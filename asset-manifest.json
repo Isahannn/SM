@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/MyParking/static/css/main.9222d8ea.css",
+    "main.js": "/MyParking/static/js/main.de2d4e35.js",
+    "static/js/453.769c90a8.chunk.js": "/MyParking/static/js/453.769c90a8.chunk.js",
+    "static/media/crash.jpg": "/MyParking/static/media/crash.a1b241e33932c1ecb270.jpg",
+    "static/media/analys.jpg": "/MyParking/static/media/analys.444b613772f9c8b65204.jpg",
+    "static/media/FullParking.jpg": "/MyParking/static/media/FullParking.e48c268cdc66923f7955.jpg",
+    "static/media/parking.webp": "/MyParking/static/media/parking.28c9bffe3568d979f2f8.webp",
+    "static/media/maps.png": "/MyParking/static/media/maps.27dc10861c9654b8a5b5.png",
+    "static/media/about.png": "/MyParking/static/media/about.57db3e53a04ae509cf3d.png",
+    "static/media/Contact.png": "/MyParking/static/media/Contact.2a589785b123b96cb615.png",
+    "static/media/news.png": "/MyParking/static/media/news.1ca97854fc651ac44f3c.png",
+    "static/media/Bogdan.jpg": "/MyParking/static/media/Bogdan.cd5c275a4bffb28da615.jpg",
+    "static/media/Logo.png": "/MyParking/static/media/Logo.504c17321361727eb797.png",
+    "static/media/P1.jpeg": "/MyParking/static/media/P1.1be633017c0765cb86ae.jpeg",
+    "static/media/P2.jpeg": "/MyParking/static/media/P2.03223447a6bd97b6905c.jpeg",
+    "static/media/P3.jpeg": "/MyParking/static/media/P3.30d8e6c7cf3e7b1ff103.jpeg",
+    "static/media/qrcode_b.jpg": "/MyParking/static/media/qrcode_b.9e3e57aaae69923ab54a.jpg",
+    "static/media/qrcode_lexus.jpg": "/MyParking/static/media/qrcode_lexus.3d5995a4483f20a53c1c.jpg",
+    "static/media/lexus.jpg": "/MyParking/static/media/lexus.ab386b1c1bdf62aadb45.jpg",
+    "static/media/Isahan.jpg": "/MyParking/static/media/Isahan.207789ca5a2e4a9f207c.jpg",
+    "static/media/Kurator.jpg": "/MyParking/static/media/Kurator.dc027ebc9f65209187ee.jpg",
+    "static/media/slick.svg": "/MyParking/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/MyParking/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/MyParking/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/MyParking/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/MyParking/index.html",
+    "main.9222d8ea.css.map": "/MyParking/static/css/main.9222d8ea.css.map",
+    "main.de2d4e35.js.map": "/MyParking/static/js/main.de2d4e35.js.map",
+    "453.769c90a8.chunk.js.map": "/MyParking/static/js/453.769c90a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9222d8ea.css",
+    "static/js/main.de2d4e35.js"
+  ]
+}

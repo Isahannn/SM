@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 600px;
+  margin: 20px auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  animation: fadeIn 1s ease-in-out; 
+}
+
+.fullscreen-button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px; 
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-align: center;
+  animation: fadeInUp 1s ease-in-out; 
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  animation: fadeIn 1s ease-in-out; 
+}
+
+
+@media (max-width: 1200px) {
+  .fullscreen-button {
+      font-size: 1rem;
+      padding: 10px 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .map-container {
+      height: 75vh; 
+  }
+
+  .fullscreen-button {
+      font-size: 0.9rem;
+      padding: 10px 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .map-container {
+      height: 60vh; 
+  }
+
+  .fullscreen-button {
+      font-size: 0.8rem;
+      padding: 8px 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .map-container {
+      height: 50vh;
+  }
+
+  .fullscreen-button {
+      font-size: 0.7rem;
+      padding: 6px 8px;
+      margin: 15px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .map-container {
+      height: 40vh; 
+  }
+
+  .fullscreen-button {
+      font-size: 0.6rem;
+      padding: 4px 6px;
+      margin: 10px 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

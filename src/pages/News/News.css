@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  animation: fadeIn 1s ease-in-out; 
+  margin-bottom: 10px !important;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.main-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px; 
+  animation: fadeIn 1s ease-in-out; 
+}
+
+.slider-section {
+  width: 40%;
+}
+
+.slide-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  animation: fadeIn 1s ease-in-out; 
+}
+
+.text-section {
+  width: 60%;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+  animation: fadeInUp 1s ease-in-out; 
+}
+
+.text-section h1 {
+  font-size: 2rem;
+}
+
+.text-section p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+  .main-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .text-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .text-section p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-header {
+    height: 80vh;
+  }
+
+  .slider-container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .slider-section {
+    width: 100%;
+    order: 2;
+  }
+
+  .text-section {
+    width: 100%;
+    padding: 10px;
+    order: 1;
+  }
+
+  .text-section h1 {
+    font-size: 1.6rem;
+  }
+
+  .text-section p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-header {
+    height: 70vh;
+  }
+
+  .main-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .slider-container {
+    height: auto;
+    padding: 10px; 
+  }
+
+  .slide-image {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .text-section h1 {
+    font-size: 1.4rem;
+  }
+
+  .text-section p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-header {
+    height: 60vh;
+  }
+
+  .main-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .slider-container {
+    height: auto;
+    padding: 10px; 
+  }
+
+  .slide-image {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .text-section {
+    padding: 5px;
+  }
+
+  .text-section h1 {
+    font-size: 1.2rem;
+  }
+
+  .text-section p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-header {
+    height: 50vh;
+  }
+
+  .main-text h1 {
+    font-size: 1.2rem;
+  }
+
+  .slider-container {
+    height: auto;
+    padding: 10px; 
+  }
+
+  .slide-image {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .text-section {
+    padding: 5px;
+  }
+
+  .text-section h1 {
+    font-size: 1rem;
+  }
+
+  .text-section p {
+    font-size: 0.8rem;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
